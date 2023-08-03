@@ -1,6 +1,6 @@
 export const MainTheme = {
 	color: {
-		black: "#2F2951",
+		black: "#050401",
 		white: "#FFFFFF",
 		purple: "#2F2951",
 		placeholder: "#9B9B9B",

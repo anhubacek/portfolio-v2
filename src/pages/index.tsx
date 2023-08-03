@@ -3,8 +3,8 @@ import { HomeHero } from "@/containers/Home/HomeHero/HomeHero";
 import { Footer } from "@/components/Footer/Footer";
 
 const HomeWrapper = styled.main`
-	width: 100%;
-	min-height: 100vh;
+    width: 100%;
+    min-height: 100vh;
 `;
 
 export default function Home() {

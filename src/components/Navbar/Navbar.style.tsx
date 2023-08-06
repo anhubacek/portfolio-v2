@@ -2,26 +2,29 @@ import styled from "styled-components";
 
 export const NavbarWrapper = styled.nav`
 	width: 100%;
-	height: 15vh;
+	height: 14vh;
 	position: fixed;
 	top: 0;
 	display: flex;
 	justify-content: space-between;
-	backdrop-filter: blur(5px);
+	backdrop-filter: blur(6px);
+    padding: 0px 2%;
 	.logo {
-		width: 30%;
+		width: 25%;
 		height: 100%;
-		padding: 10px 30px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 		a {
 			text-decoration: none;
 			color: ${(props) => props.theme.color.beigeLight};
 			font-family: ${(props) => props.theme.font.marny};
-			font-size: 60px;
-			text-shadow: 2px 2px 5px black;
+			font-size: 50px;
+			text-shadow: 2px 2px 5px #00000090;
 			transition: 0.4s ease;
 			&:hover {
 				color: ${(props) => props.theme.color.whiteOff};
-				font-size: 61px;
+				font-size: 51px;
 			}
 		}
 	}
@@ -31,11 +34,14 @@ export const NavbarWrapper = styled.nav`
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+        margin-top: 1vh;
+
 		a {
 			text-decoration: none;
 			color: ${(props) => props.theme.color.beigeLight};
 			font-family: ${(props) => props.theme.font.amtenaryos};
-			font-size: 16px;
+			font-size: 15px;
+			letter-spacing: 1px;
 			font-weight: 500;
 			text-transform: uppercase;
 			text-shadow: 2px 2px 5px black;

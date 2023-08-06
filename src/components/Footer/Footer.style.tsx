@@ -6,11 +6,8 @@ export const FooterWrapperDesktop = styled.footer`
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
-
 	color: ${(props) => props.theme.color.beigeLight};
 	padding: 0px 2%;
-	position: absolute;
-	bottom: 0;
 		 background: ${(props) => props.theme.color.greenDark};
 		  background: linear-gradient(to top, ${(props) => props.theme.color.greenDark} 60%, rgba(0, 128, 0, 0) 100%);
 	.top {

@@ -11,6 +11,10 @@ import { footerDataEn } from "@/data/footer/en";
 const ContactWrapper = styled.main`
 	width: 100%;
 	min-height: 100vh;
+	background-image: url("/assets/images/home/background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 10%;
 `;
 
 export default function Contact() {

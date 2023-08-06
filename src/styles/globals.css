@@ -1,32 +1,56 @@
 @font-face {
-    font-family: 'OpenSans-Regular';
-    src: url("../../public/fonts/OpenSans-Regular.ttf") format("truetype");
+	font-family: "OpenSans-Regular";
+	src: url("../../public/fonts/OpenSans-Regular.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'OpenSans-SemiBold';
-    src: url("../../public/fonts/OpenSans-SemiBold.ttf") format("truetype");
-}
-
-
-@font-face {
-    font-family: 'PlayfairDisplay';
-    src: url("../../public/fonts/PlayfairDisplay.ttf") format("truetype");
+	font-family: "OpenSans-SemiBold";
+	src: url("../../public/fonts/OpenSans-SemiBold.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'OpenSans-Bold';
-    src: url("../../public/fonts/OpenSans-Bold.ttf") format("truetype");
+	font-family: "PlayfairDisplay";
+	src: url("../../public/fonts/PlayfairDisplay.ttf") format("truetype");
 }
 
-body, main, section{
-  padding: 0;
-  margin: 0;
-  
+@font-face {
+	font-family: "OpenSans-Bold";
+	src: url("../../public/fonts/OpenSans-Bold.ttf") format("truetype");
 }
 
+@font-face {
+	font-family: "Night-House";
+	src: url("../../public/fonts/Night-House.otf") format("truetype");
+}
 
+@font-face {
+	font-family: "Rolves-Regular";
+	src: url("../../public/fonts/Rolves-Regular.ttf") format("truetype");
+}
 
+@font-face {
+	font-family: "Silent-Reaction";
+	src: url("../../public/fonts/Silent-Reaction.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Amtenaryos.otf";
+	src: url("../../public/fonts/Amtenaryos.otf") format("truetype");
+}
+
+@font-face {
+	font-family: "Marny-Regular";
+	src: url("../../public/fonts/Marny-Regular.otf") format("truetype");
+}
+
+body,
+main,
+section {
+	padding: 0;
+	margin: 0;
+	color: #f7f1e9;
+	color: #f3e9db;
+}
 
 /* alternative background
 	--x: calc(var(--posX, 0) * 1px);

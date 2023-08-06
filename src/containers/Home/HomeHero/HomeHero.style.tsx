@@ -7,4 +7,5 @@ export const HomeHeroWrapper = styled.section`
 	display: flex;
 	background-image: url("/assets/images/home/background.jpg");
 	background-size: cover;
+	background-position: 50%;
 `;

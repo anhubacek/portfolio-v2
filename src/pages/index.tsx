@@ -1,6 +1,10 @@
 import styled from "styled-components";
 import { HomeHero } from "@/containers/Home/HomeHero/HomeHero";
 import { Footer } from "@/components/Footer/Footer";
+import { Navbar } from "@/components/Navbar/Navbar";
+import { useRouter } from "next/router";
+import { navbarDataEs } from "@/data/navbar/es";
+import { navbarDataEn } from "@/data/navbar/en";
 
 const HomeWrapper = styled.main`
     width: 100%;
@@ -8,8 +12,12 @@ const HomeWrapper = styled.main`
 `;
 
 export default function Home() {
+	const router = useRouter()
+	const {locale} = router
+
 	return (
 		<HomeWrapper>
+			<Navbar data={locale === 'es' ? navbarDataEs : navbarDataEn}/>
 			<HomeHero />
 			<Footer/>
 		</HomeWrapper>

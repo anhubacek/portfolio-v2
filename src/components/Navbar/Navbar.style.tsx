@@ -7,8 +7,14 @@ export const NavbarWrapper = styled.nav`
 	top: 0;
 	display: flex;
 	justify-content: space-between;
-	backdrop-filter: blur(6px);
-    padding: 0px 2%;
+	backdrop-filter: blur(5px);
+	padding: 0px 2%;
+	background: linear-gradient(
+		to bottom,
+		${(props) => props.theme.color.greenDark} 0%,
+		${(props) => props.theme.color.greenDark} 5%,
+		rgba(0, 128, 0, 0) 80%
+	);
 	.logo {
 		width: 25%;
 		height: 100%;
@@ -34,7 +40,7 @@ export const NavbarWrapper = styled.nav`
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-        margin-top: 1vh;
+		margin-top: 1vh;
 
 		a {
 			text-decoration: none;

@@ -5,6 +5,8 @@ import styled from "styled-components";
 import { useRouter } from "next/router";
 import { navbarDataEs } from "@/data/navbar/es";
 import { navbarDataEn } from "@/data/navbar/en";
+import { footerDataEs } from "@/data/footer/es";
+import { footerDataEn } from "@/data/footer/en";
 
 const ContactWrapper = styled.main`
 	width: 100%;
@@ -19,7 +21,7 @@ export default function Contact() {
 		<ContactWrapper>
 			<Navbar data={locale === "es" ? navbarDataEs : navbarDataEn} />
 			<ContactHero />
-			<Footer />
+			<Footer data={locale === 'es' ? footerDataEs : footerDataEn} />
 		</ContactWrapper>
 	);
 }

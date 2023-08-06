@@ -7,7 +7,9 @@ export const MainTheme = {
 		placeholder: "#9B9B9B",
 		gray: "#F0F0F0",
 		beigeLight: "#f3e9db",
-		green: "#C4E2B5",
+		greenLight: "#4b5d49",
+		green: "#2c3526",
+		greenDark: '#080702',
 		blue: "#A4C0EA",
 		darkBlue: "#3F4C7A"
 	},

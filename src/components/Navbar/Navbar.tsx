@@ -16,7 +16,7 @@ export const Navbar = ({data}: {data: any}) => {
                 {
                     data?.pages?.map((page: {label: string, link: string}) =>{
                         return(
-                            <Link href={page?.link} className="underline">
+                            <Link href={page?.link} className="underline" key={page?.label}>
                                 {page?.label}
                             </Link>
                         )

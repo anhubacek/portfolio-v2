@@ -45,7 +45,7 @@ export const NavbarWrapper = styled.nav`
 		a {
 			text-decoration: none;
 			color: ${(props) => props.theme.color.beigeLight};
-			font-family: ${(props) => props.theme.font.amtenaryos};
+			font-family: ${(props) => props.theme.font.mainRegular};
 			font-size: 15px;
 			letter-spacing: 1px;
 			font-weight: 500;

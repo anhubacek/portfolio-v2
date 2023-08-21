@@ -8,6 +8,8 @@ import { navbarDataEn } from "@/data/navbar/en";
 import { footerDataEs } from "@/data/footer/es";
 import { footerDataEn } from "@/data/footer/en";
 import { HomeContent } from "@/containers/Home/HomeContent/HomeContent";
+import { homeDataEs } from "@/data/home/es";
+import { homeDataEn } from "@/data/home/en";
 
 const HomeWrapper = styled.main`
 	width: 100%;
@@ -25,7 +27,7 @@ export default function Home() {
 	return (
 		<HomeWrapper>
 			<Navbar data={locale === "es" ? navbarDataEs : navbarDataEn} />
-			<HomeHero />
+			<HomeHero  data={locale === "es" ? homeDataEs : homeDataEn}  />
 			<HomeContent />
 			<Footer data={locale === "es" ? footerDataEs : footerDataEn} />
 		</HomeWrapper>
